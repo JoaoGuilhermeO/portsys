@@ -1,0 +1,59 @@
+/* Estilos para a página de cadastro de visitantes */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffecd1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #001524;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #15616d;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: 1px solid #15616d;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #15616d;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #001524;
+}
+
